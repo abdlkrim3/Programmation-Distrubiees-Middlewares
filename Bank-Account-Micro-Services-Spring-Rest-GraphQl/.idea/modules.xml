@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Programmation-Distrubiees-Middlewares-main/Bank-Account-Micro-Services-Spring-Rest-GraphQl/.idea/Programmation-Distrubiees-Middlewares-main.iml" filepath="$PROJECT_DIR$/Programmation-Distrubiees-Middlewares-main/Bank-Account-Micro-Services-Spring-Rest-GraphQl/.idea/Programmation-Distrubiees-Middlewares-main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programmation-Distrubiees-Middlewares-main/Microservices-Spring/billing-service/billing-service.iml" filepath="$PROJECT_DIR$/Programmation-Distrubiees-Middlewares-main/Microservices-Spring/billing-service/billing-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programmation-Distrubiees-Middlewares-main/Microservices-Spring/customer-service/customer-service.iml" filepath="$PROJECT_DIR$/Programmation-Distrubiees-Middlewares-main/Microservices-Spring/customer-service/customer-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programmation-Distrubiees-Middlewares-main/Microservices-Spring/eureka-discovery/eureka-discovery.iml" filepath="$PROJECT_DIR$/Programmation-Distrubiees-Middlewares-main/Microservices-Spring/eureka-discovery/eureka-discovery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programmation-Distrubiees-Middlewares-main/Microservices-Spring/gateway-service/gateway-service.iml" filepath="$PROJECT_DIR$/Programmation-Distrubiees-Middlewares-main/Microservices-Spring/gateway-service/gateway-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programmation-Distrubiees-Middlewares-main/Microservices-Spring/inventory-service/inventory-service.iml" filepath="$PROJECT_DIR$/Programmation-Distrubiees-Middlewares-main/Microservices-Spring/inventory-service/inventory-service.iml" />
+    </modules>
+  </component>
+</project>
