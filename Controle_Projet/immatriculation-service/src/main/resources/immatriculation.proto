@@ -1,0 +1,67 @@
+syntax = "proto3";
+option java_package="ma.enset.immatriculation_service.web.grpc.stub";
+message Proprietaire {
+  int64 id=1;
+  string nom = 2;
+  string dateNaissance = 3;
+  string email = 4;
+  repeated Vehicule vehicules=5;
+}
+message Vehicule {
+  int64 id = 1;
+  string matricule = 2;
+  string marque = 3;
+  string fiscalePuissance = 4;
+  string modele = 5;
+  Proprietaire proprietaire = 6;
+}
+
+service ImmatriculationService {
+  rpc getProprietaire(GetProprietaireRequest) returns (GetProprietaireResponse);
+  rpc getListProprietaire(GetAllProprietairesRequest) returns ( GetAllProprietairesResponse);
+  rpc saveProprietaire(SaveProprietaireRequest) returns (SaveProprietaireResponse);
+  rpc getVehicule(GetVehiculeRequest) returns (GetVehiculeResponse);
+  rpc getListVehicule(GetAllVehiculesRequest) returns ( GetAllVehiculesResponse);
+  rpc saveVehicule(SaveVehiculeRequest) returns (SaveVehiculeResponse);
+}
+message GetProprietaireRequest{
+  int64 id=1;
+}
+message GetProprietaireResponse{
+  Proprietaire proprietaire=1;
+}
+message GetAllProprietairesRequest {}
+message GetAllProprietairesResponse{
+  repeated  Proprietaire proprietaire = 1;
+}
+message SaveProprietaireRequest {
+  string nom = 1;
+  string dateNaissance = 2;
+  string email = 3;
+  repeated Vehicule vehicule=4;
+}
+message SaveProprietaireResponse {
+  Proprietaire proprietaire=1;
+}
+
+message GetVehiculeRequest{
+  int64 id=1;
+}
+message GetVehiculeResponse{
+  Vehicule vehicule=1;
+}
+message GetAllVehiculesRequest {}
+message GetAllVehiculesResponse{
+  repeated  Vehicule vehicule = 1;
+}
+message SaveVehiculeRequest {
+  string matricule = 1;
+  string marque = 2;
+  string fiscalePuissance = 3;
+  string modele = 4;
+  Proprietaire proprietaire = 5;
+}
+message SaveVehiculeResponse {
+  Vehicule vehicule=1;
+}
+

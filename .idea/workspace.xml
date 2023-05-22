@@ -5,32 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="850f9d10-97d7-4e4e-9e8c-b09f5138b984" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Microservices-Spring/images/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Microservices-Spring/images/10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Microservices-Spring/images/11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Microservices-Spring/images/12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Microservices-Spring/images/13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Microservices-Spring/images/14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Microservices-Spring/images/15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Microservices-Spring/images/16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Microservices-Spring/images/17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Microservices-Spring/images/18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Microservices-Spring/images/19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Microservices-Spring/images/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Microservices-Spring/images/20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Microservices-Spring/images/21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Microservices-Spring/images/22.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Microservices-Spring/images/23.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Microservices-Spring/images/24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Microservices-Spring/images/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Microservices-Spring/images/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Microservices-Spring/images/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Microservices-Spring/images/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Microservices-Spring/images/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Microservices-Spring/images/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Microservices-Spring/images/9.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Microservices-Spring/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Microservices-Spring/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +36,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -136,7 +115,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683835857344</updated>
-      <workItem from="1683835859121" duration="3944000" />
+      <workItem from="1683835859121" duration="4524000" />
     </task>
     <servers />
   </component>
