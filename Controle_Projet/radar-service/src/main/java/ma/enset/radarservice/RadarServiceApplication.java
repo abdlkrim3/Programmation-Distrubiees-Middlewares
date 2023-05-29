@@ -22,15 +22,17 @@ public class RadarServiceApplication {
 	CommandLineRunner start(RadarRepository radarRepository){
 		return args -> {
 			DecimalFormat numberFormat = new DecimalFormat("#.0000");
+			int vitesse=90;
 			for (int i = 0; i < 4; i++) {
 				radarRepository.save(
 						new Radar().builder()
 								.id(null)
-								.maxVitesseAccepte(120)
+								.maxVitesseAccepte(vitesse)
 								.longitude(Math.random()*100)
 								.latitude(Math.random()*100)
 								.build()
 				);
+				vitesse+=20;
 			}
 		};
 	}

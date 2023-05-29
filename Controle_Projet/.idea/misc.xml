@@ -8,6 +8,8 @@
         <option value="$PROJECT_DIR$/gateway-service/pom.xml" />
         <option value="$PROJECT_DIR$/Infraction-service/pom.xml" />
         <option value="$PROJECT_DIR$/immatriculation-service/pom.xml" />
+        <option value="$PROJECT_DIR$/Simulation-Radar/pom.xml" />
+        <option value="$PROJECT_DIR$/eurikaDiscovery/pom.xml" />
       </list>
     </option>
   </component>

@@ -11,6 +11,7 @@ import ma.enset.immatriculation_service.web.grpc.stub.ImmatriculationServiceGrpc
 import net.devh.boot.grpc.server.service.GrpcService;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 @GrpcService
 @AllArgsConstructor
@@ -39,5 +40,21 @@ public class ImmatriculationGrpcService extends ImmatriculationServiceGrpc.Immat
                 .build();
         responseObserver.onNext(proprietaireResponse);
         responseObserver.onCompleted();
+    }
+
+    @Override
+    public void getProprietaire(Immatriculation.GetProprietaireRequest request, StreamObserver<Immatriculation.GetProprietaireResponse> responseObserver) {
+        Long id=request.getId();
+        Proprietaire proprietaire=proprietaireRepository.findById(id).get();
+        Immatriculation.Proprietaire grpcProprietaire= grpcMapper.fromProprietaireEntity(proprietaire);
+        Immatriculation.GetProprietaireResponse response = Immatriculation.GetProprietaireResponse.newBuilder()
+                .setProprietaire(grpcProprietaire)
+                .build();
+
+    }
+
+    @Override
+    public void getVehicule(Immatriculation.GetVehiculeRequest request, StreamObserver<Immatriculation.GetVehiculeResponse> responseObserver) {
+        super.getVehicule(request, responseObserver);
     }
 }

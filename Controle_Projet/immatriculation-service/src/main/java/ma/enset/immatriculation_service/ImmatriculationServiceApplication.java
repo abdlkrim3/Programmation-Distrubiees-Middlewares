@@ -27,10 +27,10 @@ public class ImmatriculationServiceApplication {
             proprietaireRepository.save(agoujil);
             proprietaireRepository.save(ablkrim);
             Vehicule vehicule1 = new Vehicule(null,"764TERETRE","Dacia","20PH","2010",agoujil);
-            Vehicule vehicule2 = new Vehicule(null,"764TEREsjdjsTRE","ford","300FH","2020",agoujil);
+            Vehicule vehicule2 = new Vehicule(null,"764TGFRT87","ford","300FH","2020",agoujil);
             vehiculeRepository.save(vehicule1);
             vehiculeRepository.save(vehicule2);
-            vehiculeRepository.save(new Vehicule(null,"764TERETRE","toyota","20PH","2010",ablkrim));
+            vehiculeRepository.save(new Vehicule(null,"764TERSEM","toyota","20PH","2010",ablkrim));
 
         };
     }

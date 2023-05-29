@@ -1,0 +1,11 @@
+type Query {
+    getRadars : [Radar],
+    getRadarById(id:ID): Radar
+}
+
+type Radar {
+    id: ID,
+    maxVitesseAccepte: Float,
+    longitude: Float,
+    latitude: Float
+}

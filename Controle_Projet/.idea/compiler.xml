@@ -9,22 +9,25 @@
         <outputRelativeToContentRoot value="true" />
         <module name="radar-service" />
         <module name="immatriculation-service" />
+        <module name="Infraction-service" />
         <module name="eurikaDiscovery" />
         <module name="gateway-service" />
-        <module name="Infractions-service" />
+        <module name="Simulation-Radar" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eurikaDiscovery" target="17" />
       <module name="gateway-service" target="17" />
       <module name="immatriculation-service" target="17" />
-      <module name="Infractions-service" target="17" />
+      <module name="Infraction-service" target="17" />
       <module name="radar-service" target="17" />
+      <module name="Simulation-Radar" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="Infractions-service" options="-parameters" />
+      <module name="Infraction-service" options="-parameters" />
+      <module name="Simulation-Radar" options="-parameters" />
       <module name="eurikaDiscovery" options="-parameters" />
       <module name="gateway-service" options="-parameters" />
       <module name="immatriculation-service" options="-parameters" />

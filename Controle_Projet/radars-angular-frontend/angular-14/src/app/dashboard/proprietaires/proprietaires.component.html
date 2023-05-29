@@ -1,0 +1,38 @@
+<div class="card">
+  <div class="card-body">
+    <!-- title -->
+    <h4 class="card-title">Proprietaires</h4>
+    <h5 class="card-subtitle">Informations: </h5>
+
+    <!-- title -->
+    <div class="table-responsive">
+      <table class="table align-middle">
+        <thead>
+        <tr>
+          <th class="text-dark font-medium fs-4">Nom</th>
+          <th class="text-dark font-medium fs-4">dateNaissance</th>
+          <!--                     <th class="text-dark font-medium fs-4">Status</th>-->
+          <th class="text-dark font-medium fs-4">email</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor='let p of proprietaires'>
+          <td>
+            <div class="d-flex align-items-center">
+              <div class="ms-3">
+                <!-- <h5 class="mb-0 font-medium">{{v.id}}</h5> -->
+                <span>{{p.nom}}</span>
+              </div>
+            </div>
+          </td>
+          <td class="fs-4">{{p.dateNaissance}}</td>
+          <td>
+            <h5 class="mb-0 fw-normal">{{p.email}}</h5>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+

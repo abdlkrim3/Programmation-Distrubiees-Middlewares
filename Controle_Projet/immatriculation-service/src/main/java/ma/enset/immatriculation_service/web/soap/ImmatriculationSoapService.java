@@ -3,8 +3,6 @@ package ma.enset.immatriculation_service.web.soap;
 import jakarta.jws.WebMethod;
 import jakarta.jws.WebParam;
 import jakarta.jws.WebService;
-import lombok.AllArgsConstructor;
-import lombok.Data;
 import ma.enset.immatriculation_service.entities.Proprietaire;
 import ma.enset.immatriculation_service.entities.Vehicule;
 import ma.enset.immatriculation_service.repositories.ProprietaireRepository;
@@ -20,6 +18,10 @@ public class ImmatriculationSoapService {
     private ProprietaireRepository proprietaireRepository;
     private VehiculeRepository vehiculeRepository;
 
+    public ImmatriculationSoapService(ProprietaireRepository proprietaireRepository, VehiculeRepository vehiculeRepository) {
+        this.proprietaireRepository = proprietaireRepository;
+        this.vehiculeRepository = vehiculeRepository;
+    }
 
     @WebMethod
     public List<Vehicule> vehicules(){

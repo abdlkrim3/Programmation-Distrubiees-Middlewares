@@ -20,7 +20,7 @@ public class VehiculeGraphQlService {
         return vehiculeRepository.findAll();
     }
     @QueryMapping
-    public Vehicule vehiculeById(@Argument Long id){
+    public Vehicule vehiculeRequestById(@Argument Long id){
         return vehiculeRepository.findById(id).get();
     }
     @MutationMapping

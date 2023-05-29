@@ -1,0 +1,40 @@
+syntax ="proto3";
+option java_package="ma.enset.radarsimulation.grpc.stub";
+
+message Radar {
+  int64 id=1;
+  float vitesseMax=2;
+  float longitude =4;
+  float latitude=5;
+}
+service RadarGrpcService {
+  rpc getRadar(GetRadarRequest) returns (GetRadarResponse);
+  rpc getListRadars(GetAllRadarsRequest) returns ( GetAllRadarsResponse);
+  rpc saveRadar(SaveRadarRequest) returns (SaveRadarResponse);
+  rpc radarControl(stream SaveRadarRequest) returns (stream DetectOverSpeed);
+}
+message GetRadarRequest{
+  int64 id=1;
+}
+message GetRadarResponse{
+  Radar radar=1;
+}
+message GetAllRadarsRequest {}
+message GetAllRadarsResponse{
+  repeated  Radar radars = 1;
+}
+message SaveRadarRequest {
+  float vitesseMax=1;
+  float vitesseVehicule = 2;
+  string matricule = 3;
+  int64 radarId = 4;
+  float longitude=5;
+  float latitude=6;
+}
+
+message DetectOverSpeed{
+  bool isSpeeding = 1;
+}
+message SaveRadarResponse {
+  Radar radar=1;
+}

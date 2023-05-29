@@ -1,0 +1,38 @@
+<div class="card">
+  <div class="card-body">
+    <!-- title -->
+    <h4 class="card-title">Radars</h4>
+    <h5 class="card-subtitle">Informations:</h5>
+
+    <!-- title -->
+    <div class="table-responsive">
+      <table class="table align-middle">
+        <thead>
+        <tr>
+          <th class="text-dark font-medium fs-4">Vitesse Maximale</th>
+          <th class="text-dark font-medium fs-4">longitude</th>
+          <!--                     <th class="text-dark font-medium fs-4">Status</th>-->
+          <th class="text-dark font-medium fs-4">latitude</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor='let r of radars'>
+          <td>
+            <div class="d-flex align-items-center">
+              <div class="ms-3">
+                <!-- <h5 class="mb-0 font-medium">{{v.id}}</h5> -->
+                <span>{{r.maxVitesseAccepte}}</span>
+              </div>
+            </div>
+          </td>
+          <td class="fs-4">{{r.longitude}}</td>
+          <td>
+            <h5 class="mb-0 fw-normal">{{r.latitude}}</h5>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,58 @@
+syntax ="proto3";
+option java_package="ma.enset.infractionsservice.controller.grpc.stub";
+
+message Infraction {
+  int64 id=1;
+  string date=2;
+  int64 radarId=3;
+  int64 vehiculeId=4;
+  float vitesseVehicule=5;
+  float vitesseMax=6;
+  float montant=7;
+  Vehicule vehicule=8;
+  Radar radar=9;
+}
+
+message Vehicule {
+  int64 id=1;
+  string matricule=2;
+  string marque=3;
+  int64 puissanceFiscale=4;
+  string model=5;
+}
+
+message Radar{
+  int64 id=1;
+  float vitesseMax=2;
+  float longitude=3;
+  float latitude=4;
+}
+
+service InfractionGrpcService {
+  rpc getInfraction(GetInfractionRequest) returns (GetInfractionResponse);
+  rpc getListInfractions(GetAllInfractionsRequest) returns ( GetAllInfractionsResponse);
+  rpc saveInfraction(SaveInfractionRequest) returns (SaveInfractionResponse);
+}
+
+message GetInfractionRequest{
+  int64 id=1;
+}
+
+message GetInfractionResponse{
+  Infraction infraction=1;
+}
+
+message GetAllInfractionsRequest {}
+message GetAllInfractionsResponse{
+  repeated  Infraction infractions = 1;
+}
+
+message SaveInfractionRequest {
+  string vitesseMax=1;
+  string longitude=2;
+  string latitude=3;
+}
+
+message SaveInfractionResponse {
+  Infraction infraction=1;
+}

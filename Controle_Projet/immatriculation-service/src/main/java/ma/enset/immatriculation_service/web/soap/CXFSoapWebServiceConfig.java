@@ -1,7 +1,6 @@
 package ma.enset.immatriculation_service.web.soap;
 
-import lombok.AllArgsConstructor;
-import ma.enset.immatriculation_service.web.soap.ImmatriculationSoapService;
+
 import org.apache.cxf.Bus;
 import org.apache.cxf.jaxws.EndpointImpl;
 import org.springframework.beans.factory.annotation.Autowired;

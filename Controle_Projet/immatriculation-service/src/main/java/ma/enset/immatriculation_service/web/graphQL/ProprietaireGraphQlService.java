@@ -20,7 +20,9 @@ public class ProprietaireGraphQlService {
         return proprietaireRepository.findAll();
     }
     @QueryMapping
-    public Proprietaire proprietaireById(@Argument Long id){
+    public Proprietaire proprietaireRequestById(@Argument Long id){
+        System.out.println(id);
+        System.out.println(proprietaireRepository.findById(id).get());
         return proprietaireRepository.findById(id).get();
     }
     @MutationMapping
