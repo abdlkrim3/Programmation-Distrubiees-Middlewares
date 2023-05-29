@@ -25,14 +25,13 @@ plus, il doit permettre à un propriétaire de consulter ses infractions.</p>
 ## Architecture des fichiers
 <img src="Simulation-Radar/src/main/resources/images/img2.png">
 
-## Diagramme de classe
-<img src="Simulation-Radar/src/main/resources/images/img3.png">
-
 - **radars-angular-frontend** : contient la partier frontend developpée avec angular
 - **immatriculation-service** : Microservice de matruculation et vehicule - proprietaire.
 - **radar-service** : Microservice de radar.
 - **infraction-service** : Microservice d'établissement des infractions et amendes.
 
+## Diagramme de classe
+<img src="Simulation-Radar/src/main/resources/images/img3.png">
 
 ## Testing
 
