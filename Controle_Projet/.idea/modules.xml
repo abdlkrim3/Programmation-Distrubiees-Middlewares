@@ -5,7 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/Controle_Projet.iml" filepath="$PROJECT_DIR$/.idea/Controle_Projet.iml" />
       <module fileurl="file://$PROJECT_DIR$/Infraction-service/Infraction-service.iml" filepath="$PROJECT_DIR$/Infraction-service/Infraction-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/Simulation-Radar/Simulation-Radar.iml" filepath="$PROJECT_DIR$/Simulation-Radar/Simulation-Radar.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eurikaDescovery/eurikaDiscovery.iml" filepath="$PROJECT_DIR$/eurikaDescovery/eurikaDiscovery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurikaDiscovery/eurikaDiscovery.iml" filepath="$PROJECT_DIR$/eurikaDiscovery/eurikaDiscovery.iml" />
       <module fileurl="file://$PROJECT_DIR$/gateway-service/gateway-service.iml" filepath="$PROJECT_DIR$/gateway-service/gateway-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/immatriculation-service/immatriculation-service.iml" filepath="$PROJECT_DIR$/immatriculation-service/immatriculation-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/radar-service/radar-service.iml" filepath="$PROJECT_DIR$/radar-service/radar-service.iml" />
