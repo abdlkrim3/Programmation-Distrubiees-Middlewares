@@ -1,6 +1,8 @@
 # Projet Systèmes Distribués
-<p>On souhaite créer un système distribué basé sur les micro-services Cette application devrait
-permettre de gérer et d’automatiser le processus des infractions concernant des véhicules
+
+## Introduction
+
+<p>Création d'un système distribué basé sur les micro-services permettre de gérer et d’automatiser le processus des infractions concernant des véhicules
 suites à des dépassement de vitesses détectés par des radars automatiques. Le système se
 compose de trois micro-services :</br><br>
 • Le micro-service qui permet de gérer les radars. Chaque radar est défini par son id, sa
