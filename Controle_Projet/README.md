@@ -21,8 +21,12 @@ plus, il doit permettre à un propriétaire de consulter ses infractions.</p>
 
 ## Architechure technique
 <img src="Simulation-Radar/src/main/resources/images/img1.png">
+
 ## Architecture des fichiers
 <img src="Simulation-Radar/src/main/resources/images/img2.png">
+
+## Diagramme de classe
+<img src="Simulation-Radar/src/main/resources/images/img3.png">
 
 - **radars-angular-frontend** : contient la partier frontend developpée avec angular
 - **immatriculation-service** : Microservice de matruculation et vehicule - proprietaire.
@@ -31,23 +35,63 @@ plus, il doit permettre à un propriétaire de consulter ses infractions.</p>
 
 
 ## Testing
-<img src="Simulation-Radar/src/main/resources/images/img3.png">
+
+### Afficher les vehicules et leur proprietaires
+
 <img src="Simulation-Radar/src/main/resources/images/img4.png">
+
+### Afficher les proprietaies
+
 <img src="Simulation-Radar/src/main/resources/images/img5.png">
+
+### Afficher les proprietaies avec Postman
+
 <img src="Simulation-Radar/src/main/resources/images/img6.png">
+
+### Afficher les vehicules avec Postman
+
 <img src="Simulation-Radar/src/main/resources/images/img7.png">
+
+### Tester SOAP
 <img src="Simulation-Radar/src/main/resources/images/img8.png">
+
 <img src="Simulation-Radar/src/main/resources/images/img9.png">
+
+### Tester GRAPHQL
+
 <img src="Simulation-Radar/src/main/resources/images/img10.png">
-<img src="Simulation-Radar/src/main/resources/images/img11.png">
+
+
 <img src="Simulation-Radar/src/main/resources/images/img12.png">
+
+### Tester GRPC
+
 <img src="Simulation-Radar/src/main/resources/images/img13.png">
+
 <img src="Simulation-Radar/src/main/resources/images/img14.png">
+
+### Tester l'infraction avec REST
+
 <img src="Simulation-Radar/src/main/resources/images/img15.png">
+
+### Tester Radars avec REST
+
 <img src="Simulation-Radar/src/main/resources/images/img16.png">
+
+### Tester Eureka Discovery
 <img src="Simulation-Radar/src/main/resources/images/img17.png">
+
 <img src="Simulation-Radar/src/main/resources/images/img18.png">
+
+### Linterface Proprietaires avec angular
+
 <img src="Simulation-Radar/src/main/resources/images/img19.png">
+
+### Linterface Vehicules avec angular
+
 <img src="Simulation-Radar/src/main/resources/images/img20.png">
+
+### Linterface Radars avec angular
+
 <img src="Simulation-Radar/src/main/resources/images/img21.png">
 
