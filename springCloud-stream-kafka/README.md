@@ -1,10 +1,10 @@
 # Programmation-Distrubiees-Middlewares
+![gift](https://github.com/abdlkrim3/Programmation-Distrubiees-Middlewares/assets/78179606/c0734b10-d912-4d60-8848-d0b9ed3e4be7)
 <p>
-Travail à faire :<br>
+Travail effectué :<br>
 1. <br>
-- Télécharger Kafka (voir <a href="https://kafka.apache.org/downloads">ici</a> <br>
+- Télécharger Kafka (voir <a href="https://kafka.apache.org/downloads">ici</a> )<br>
 - Démarrer Zookeeper<br>
-<img src="images/1.png"><br>
 - Démarrer Kafka-server<br>
 - Tester avec Kafka-console-producer et kafka-console-consumer<br>
 2. Avec Docker (voir <a href=" https://developer.confluent.io/quickstart/kafka-docker">ici</a>)<br>
@@ -13,7 +13,7 @@ Travail à faire :<br>
  - Démarrer les conteneurs docker : zookeeper et kafka-broker<br>
  - Tester avec Kafka-console-producer et kafka-console-consumer<br>
 3.<br> 
-En Utilisant KAFKA et Stpring Cloud Streams, Créer :<br>
+En utilisant KAFKA et Stspring Cloud Streams, nous souhaiterons créer :<br>
 - Un Service Producer KAFKA via un Rest Controler<br>
 - Un Service Consumer KAFKA<br>
 - Un Service Supplier KAFKA<br>
