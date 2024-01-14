@@ -1,10 +1,11 @@
 # Programmation-Distrubiees-Middlewares
+
+<img src="images/1.gif"><br>
 <p>
 Travail à faire :<br>
 1. <br>
 - Télécharger Kafka (voir <a href="https://kafka.apache.org/downloads">ici</a> <br>
 - Démarrer Zookeeper<br>
-<img src="images/1.png"><br>
 - Démarrer Kafka-server<br>
 - Tester avec Kafka-console-producer et kafka-console-consumer<br>
 2. Avec Docker (voir <a href=" https://developer.confluent.io/quickstart/kafka-docker">ici</a>)<br>
